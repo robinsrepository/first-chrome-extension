@@ -2,7 +2,12 @@
 
 ## Description
 I'm following the "Learn JavaScript" course on [Scrimba](https://scrimba.com/home) right now and this is the third part of it.
-By building a Chrome Extension I'm learning the basics of JavaScript, like addEventListeners, ...
+By building a Chrome Extension I'm learning more basics of JavaScript, like:
+- addEventListener()
+- how to use const and let
+- writing code in ways to manipulate the DOM less
+- template literals, backticks and string interpolation
+- ...
 This Chrome Extension allows users to ...
 
 ## Features
