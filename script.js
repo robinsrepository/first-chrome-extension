@@ -9,19 +9,19 @@ inputBtn.addEventListener("click", function() {
 });
 
 // innerHTML method
-// for (let i = 0; i < myLeads.length; i++) {
-//     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
-// }
-
-// .textContent method
 for (let i = 0; i < myLeads.length; i++) {
-    // create element
-    const li = document.createElement("li");
-    // set text content
-    li.textContent = myLeads[i];
-    // append to ul
-    ulEl.append(li)
+    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
 }
+
+// // .textContent method
+// for (let i = 0; i < myLeads.length; i++) {
+//     // create element
+//     const li = document.createElement("li");
+//     // set text content
+//     li.textContent = myLeads[i];
+//     // append to ul
+//     ulEl.append(li)
+// }
 
 // let box = document.getElementById("box");
 
