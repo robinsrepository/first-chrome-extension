@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,5 +17,23 @@ button {
     margin-top: 4px;
     padding: 10px 20px;
     border: none;
+    font-weight: bold;
+} */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+    cursor: pointer;
+    background: lightseagreen;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
     font-weight: bold;
 }
