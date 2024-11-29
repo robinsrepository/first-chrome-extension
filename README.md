@@ -10,7 +10,7 @@ This Chrome Extension allows users to ...
 
 
 ## Remarks
-... 
+This is the first project I'm writing using GitHub Desktop, because I just learned how to create a local Dev environment with commit, push and deploy.
 
 ## How to Use
 1. Clone or download the repository.
