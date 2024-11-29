@@ -7,15 +7,18 @@ let listItems = "";
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value);
     console.log(myLeads);
+    renderLeads();
 });
 
 // innerHTML method
-for (let i = 0; i < myLeads.length; i++) {
-    // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
-    listItems += "<li>" + myLeads[i] + "</li>";
-}
+function renderLeads() {
+    for (let i = 0; i < myLeads.length; i++) {
+        // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+        listItems += "<li>" + myLeads[i] + "</li>";
+    }
 
-ulEl.innerHTML = listItems;
+    ulEl.innerHTML = listItems;
+}
 
 
 
