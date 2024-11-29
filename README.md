@@ -1,4 +1,4 @@
-# My First Chrome Extension 🖼️
+# My First Chrome Extension 🧩
 
 ## Description
 I'm following the "Learn JavaScript" course on [Scrimba](https://scrimba.com/home) right now and this is the third part of it.
