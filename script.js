@@ -4,11 +4,10 @@ const inputBtn = document.getElementById("input-btn");
 
 
 inputBtn.addEventListener("click", function() {
-    console.log("Button clicked!");
+    myLeads.push("www.awesomelead.com");
+    console.log(myLeads);
 });
 
-const playerName = "Robin";
-playerName = "Bonnie";
 
 
 // let box = document.getElementById("box");
