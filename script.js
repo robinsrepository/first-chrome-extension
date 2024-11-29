@@ -20,8 +20,8 @@ for (let i = 0; i < myLeads.length; i++) {
 
 const container = document.getElementById("container");
 
-let button = container.innerHTML = "<button onclick='buy()'></button>";
+container.innerHTML = "<button onclick='buy()'>Buy!</button>";
 
 function buy() {
-    container.innerHTML = button + "<p>Thank you for buying!</p>";
+    container.innerHTML += "<p>Thank you for buying!</p>";
 }
