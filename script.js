@@ -17,3 +17,11 @@ for (let i = 0; i < myLeads.length; i++) {
 // box.addEventListener("click", function() {
 //     console.log("I want to open the box!");
 // }); 
+
+const container = document.getElementById("container");
+
+let button = container.innerHTML = "<button onclick='buy()'></button>";
+
+function buy() {
+    container.innerHTML = button + "<p>Thank you for buying!</p>";
+}
