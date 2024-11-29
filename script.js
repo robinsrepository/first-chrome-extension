@@ -8,8 +8,19 @@ inputBtn.addEventListener("click", function() {
     console.log(myLeads);
 });
 
+// innerHTML method
+// for (let i = 0; i < myLeads.length; i++) {
+//     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+// }
+
+// .textContent method
 for (let i = 0; i < myLeads.length; i++) {
-    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+    // create element
+    const li = document.createElement("li");
+    // set text content
+    li.textContent = myLeads[i];
+    // append to ul
+    ulEl.append(li)
 }
 
 // let box = document.getElementById("box");
@@ -18,10 +29,10 @@ for (let i = 0; i < myLeads.length; i++) {
 //     console.log("I want to open the box!");
 // }); 
 
-const container = document.getElementById("container");
+// const container = document.getElementById("container");
 
-container.innerHTML = "<button onclick='buy()'>Buy!</button>";
+// container.innerHTML = "<button onclick='buy()'>Buy!</button>";
 
-function buy() {
-    container.innerHTML += "<p>Thank you for buying!</p>";
-}
+// function buy() {
+//     container.innerHTML += "<p>Thank you for buying!</p>";
+// }
