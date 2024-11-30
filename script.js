@@ -16,26 +16,26 @@ function renderLeads() {
         // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
         // listItems += "<li><a href='" + myLeads[i] + "' target='_blank'>" + myLeads[i] + "</a></li>";
         listItems += `
-        <li>
-            <a href='${myLeads[i]}' target='_blank'>
-                ${myLeads[i]}
-            </a>
-        </li>`;
+            <li>
+                <a href='${myLeads[i]}' target='_blank'>
+                    ${myLeads[i]}
+                </a>
+            </li>`;
      }
     ulEl.innerHTML = listItems;
 }
 
 
-const recipient = "Per";
-const sender = "Robin";
+// const recipient = "Per";
+// const sender = "Robin";
 
 // const email = "Hey " + recipient + "! How is it going? Cheers Robin";
-const email = `
-Hey ${recipient}! 
-How is it going? 
-Cheers ${sender}`;
+// const email = `
+//     Hey ${recipient}! 
+//     How is it going? 
+//     Cheers ${sender}`;
 
-console.log(email);
+// console.log(email);
 
 
 // // .textContent method
