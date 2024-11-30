@@ -27,9 +27,10 @@ function renderLeads() {
 
 
 const recipient = "Per";
+const sender = "Robin";
 
 // const email = "Hey " + recipient + "! How is it going? Cheers Robin";
-const email = `Hey ${recipient}! How is it going? Cheers Robin`;
+const email = `Hey ${recipient}! How is it going? Cheers ${sender}`;
 
 console.log(email);
 
