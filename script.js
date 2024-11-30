@@ -14,11 +14,24 @@ function renderLeads() {
     let listItems = "";
     for (let i = 0; i < myLeads.length; i++) {
         // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
-        listItems += "<li><a href='" + myLeads[i] + "' target='_blank'>" + myLeads[i] + "</a></li>";
+        // listItems += "<li><a href='" + myLeads[i] + "' target='_blank'>" + myLeads[i] + "</a></li>";
+        listItems += `
+        <li>
+            <a href='${myLeads[i]}' target='_blank'>
+                ${myLeads[i]}
+            </a>
+        </li>`;
      }
     ulEl.innerHTML = listItems;
 }
 
+
+const recipient = "Per";
+
+// const email = "Hey " + recipient + "! How is it going? Cheers Robin";
+const email = `Hey ${recipient}! How is it going? Cheers Robin`;
+
+console.log(email);
 
 
 // // .textContent method
