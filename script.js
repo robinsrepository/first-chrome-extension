@@ -6,6 +6,9 @@ const ulEl = document.getElementById("ul-el");
 // localStorage.setItem("myLeads", "www.example.com");
 // console.log(localStorage.getItem("myLeads"));
 
+// localStorage.setItem("myLeads", "https://www.davemaasland.com/");
+// console.log(localStorage.getItem("myLeads"));
+// localStorage.clear();
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value);
