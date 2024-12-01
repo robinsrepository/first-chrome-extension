@@ -1,4 +1,14 @@
-let myLeads = [];
+let myLeads = `[]`;
+
+myLeads = JSON.parse(myLeads);
+
+myLeads.push("www.test.com");
+
+myLeads = JSON.stringify(myLeads);
+
+console.log(myLeads);
+console.log(typeof myLeads);
+
 let inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
