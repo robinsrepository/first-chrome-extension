@@ -1,12 +1,16 @@
+// turn myLeads into string with backticks
 let myLeads = `[]`;
 
+// turn myLeads into array again with JSON.parse
 myLeads = JSON.parse(myLeads);
 
+// push new value into the myLeads array
 myLeads.push("www.test.com");
 
+// turn myLeads array back into string again
 myLeads = JSON.stringify(myLeads);
 
-console.log(myLeads);
+// check if the myLeads array is indeed a string
 console.log(typeof myLeads);
 
 let inputEl = document.getElementById("input-el");
