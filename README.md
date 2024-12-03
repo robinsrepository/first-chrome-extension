@@ -7,8 +7,9 @@ By building a Chrome Extension I'm learning more basics of JavaScript, like:
 - how to use const and let
 - writing code in ways to manipulate the DOM less
 - template literals, backticks and string interpolation
-- a little bit about JSON
+- a little bit about JSON methods like JSON.parse() and JSON.stringify()
 - set key-value pairs to localStorage
+- truthy, falsy and how to check for it with Boolean()
 - ...
 This Chrome Extension allows users to ...
 
