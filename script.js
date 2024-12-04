@@ -41,7 +41,7 @@ inputBtn.addEventListener("click", function() {
 const welcomeEl = document.getElementById("welcome-el");
 
 function greetUser(greeting, name) {
-    welcomeEl.textContent = greeting + ", " + name + " 👋"
+    welcomeEl.textContent = `${greeting}, ${name}👋`
 }
 
 greetUser("Goeie morgen", "Robin");
