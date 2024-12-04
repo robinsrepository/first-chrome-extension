@@ -13,12 +13,18 @@ input {
 }
 
 button {
+    text-transform: uppercase;
     background: #5F933F;
     color: #fff;
     margin-top: 4px;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #5F933F;
     font-weight: bold;
+}
+
+#delete-btn {
+    background: #fff;
+    color: #5F933F;
 }
 
 ul {
