@@ -17,13 +17,11 @@ tabBtn.addEventListener("click", function() {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         console.log(tabs);
         myLeads.push(tabs[0].url);
-        inputEl.value = "";
         localStorage.setItem("myLeads", JSON.stringify(myLeads));
         render(myLeads);
     })
 
 });
-
 
 function render(leads) {
     let listItems = "";
