@@ -10,7 +10,18 @@ if (leadsFromLocalStorage) {
     renderLeads();
 }
 
+console.log(myLeads);
 
+deleteBtn.addEventListener("dblclick", function() {
+    console.log("double click works");
+    localStorage = JSON.stringify();
+    localStorage.clear();
+    
+    myLeads = "";
+    console.log(myLeads);
+
+    
+})
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value);
