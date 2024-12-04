@@ -38,3 +38,10 @@ inputBtn.addEventListener("click", function() {
     render(myLeads);
 });
 
+const welcomeEl = document.getElementById("welcome-el");
+
+function greetUser(greeting, name) {
+    welcomeEl.textContent = greeting + ", " + name + " 👋"
+}
+
+greetUser("Goeie morgen", "Robin");
