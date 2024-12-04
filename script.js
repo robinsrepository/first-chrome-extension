@@ -11,10 +11,6 @@ if (leadsFromLocalStorage) {
     render(myLeads);
 }
 
-// const tabs = [
-//     {url: "https://www.linkedin.com/in/per-harald-borgen/"}
-// ]
-
 localStorage.clear();
 
 tabBtn.addEventListener("click", function() {
