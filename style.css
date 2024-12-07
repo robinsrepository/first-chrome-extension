@@ -1,12 +1,12 @@
-/* body {
+body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;  */
+    min-width: 400px; 
     /* to tell Chrome how wide I want the extension to be*/
-/* } */
+}
 
-/* input {
+input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -40,7 +40,7 @@ li {
 
 a {
     color: #5F933F;
-} */
+}
 
 
 /* html, body {
@@ -60,7 +60,7 @@ a {
     font-weight: bold;
 } */
 
-body {
+/* body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: whitesmoke;
     text-align: center;
@@ -80,4 +80,4 @@ h1 {
     width: 100px;
     border-radius: 100%;
     margin: 10px;
-}
+} */
