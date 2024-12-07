@@ -60,3 +60,12 @@ const imgs = [
     "images/hip3.jpg"
 ]
 
+let container = document.getElementById("container");
+
+function renderImage() {
+    for (let i = 0; i < imgs.length; i++) {
+        container.innerHTML += `<img class="team-img" src="${imgs[i]}">`;
+    }
+}
+
+renderImage()
