@@ -14,7 +14,7 @@ This is the first project I'm writing using GitHub Desktop, because I just learn
 ## How to Use
 1. Clone or download the repository.
 2. Open the index.html file in your browser.
-3. Enjoy exploring the different Canvas projects!
+3. Enjoy looking at what I have been learning and practicing with!
 
 ## Live Version
 You can view the live version of the project here: [Live Demo](https://robinsrepository.github.io/first-chrome-extension/)
